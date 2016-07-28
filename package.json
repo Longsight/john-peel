@@ -1,7 +1,7 @@
 {
-  "name": "parse-server-example",
+  "name": "john-peel",
   "version": "1.4.0",
-  "description": "An example Parse API server using the parse-server module",
+  "description": "Spotify playlist curator",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,13 +9,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
     "express": "~4.11.x",
     "kerberos": "~0.0.x",
     "parse": "~1.8.0",
+    "parse-dashboard": "^1.0.15",
     "parse-server": "~2.2.12"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "babel-node index.js"
   },
   "engines": {
     "node": ">=4.3"
