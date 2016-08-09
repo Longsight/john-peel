@@ -1,11 +1,11 @@
 {
  "name": "john-peel",
- "version": "1.5.0",
+ "version": "1.5.1",
  "description": "Spotify playlist curator",
- "main": "index.js",
+ "main": "build\/index.js",
  "repository": {
   "type": "git",
-  "url": "https:\/\/github.com\/ParsePlatform\/parse-server-example"
+  "url": "https:\/\/github.com\/longsight\/john-peel"
  },
  "license": "MIT",
  "dependencies": {
