@@ -1,6 +1,6 @@
 {
  "name": "john-peel",
- "version": "1.5.1",
+ "version": "1.5.2",
  "description": "Spotify playlist curator",
  "main": "build\/index.js",
  "repository": {
