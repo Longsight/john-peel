@@ -33,7 +33,7 @@ const dashboard = new ParseDashboard({
       appName: "John Peel"
     }
   ]
-});
+}, true);
 
 const app = express();
 
